@@ -41,7 +41,7 @@ p{max-width:68ch}
 .nav-links>li>a:hover,.nav-links>li>button:hover,.nav-links a[aria-current=page]{color:#fff;background:rgba(255,255,255,.07)}
 .nav-cta{background:var(--teal)!important;color:#04221f!important;font-weight:700!important;margin-left:8px}
 .has-menu{position:relative}
-.menu{position:absolute;top:calc(100% + 10px);left:-20px;width:560px;background:#fff;color:var(--text);border-radius:16px;box-shadow:0 24px 60px rgba(5,10,25,.35);padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:4px;opacity:0;visibility:hidden;transform:translateY(-6px);transition:.18s}
+.menu{position:absolute;top:calc(100% + 10px);right:-20px;width:560px;background:#fff;color:var(--text);border-radius:16px;box-shadow:0 24px 60px rgba(5,10,25,.35);padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:4px;opacity:0;visibility:hidden;transform:translateY(-6px);transition:.18s}
 .has-menu:hover .menu,.has-menu:focus-within .menu,.has-menu.open .menu{opacity:1;visibility:visible;transform:none}
 .menu a{display:flex;gap:12px;padding:12px;border-radius:12px;text-decoration:none}
 .menu a:hover{background:var(--paper)}
